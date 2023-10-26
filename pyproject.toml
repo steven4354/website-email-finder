@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "website-email-finder"
+version = "0.1.0"
+description = ""
+authors = ["steven4354 <steven4354@gmail.com>"]
+readme = "README.md"
+packages = [{include = "website_email_finder"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+fuzzywuzzy = "^0.18.0"
+selenium = "^4.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
